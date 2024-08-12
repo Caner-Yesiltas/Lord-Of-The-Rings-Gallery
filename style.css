@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .container {
+    display: none; 
+  }
+  
+
+  
+body {
+    background-image: url('./img/thumb-1920-1275631.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden; /* Yüzüğün ekran dışına çıkmasını engeller */
+    
+}
+
+.btn:hover {
+    background-color: rgb(57, 182, 26);
+    color: rgb(44, 1, 100);
+}
+
+/* Yüzük animasyonu */
+.ring {
+    width: 100px; 
+    height: 100px; 
+    background-image: url('./img/Lord-Of-The-Rings-Transparent-Image.png'); 
+    background-size: cover;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+   
+    transform: translate(-50%, -50%);
+    z-index: 10; 
+    animation: moveRing 8s ease-in-out infinite;
+}
+
+@keyframes moveRing {
+    0% {
+        transform: translate(-50%, -50%) translateX(-50vw) translateY(-50vh);
+    }
+    25% {
+        transform: translate(-50%, -50%) translateX(50vw) translateY(-50vh);
+    }
+    50% {
+        transform: translate(-50%, 60%) translateX(20vw) translateY(50vh);
+    }
+    75% {
+        transform: translate(-50%, -50%) translateX(70vw) translateY(50vh);
+    }
+    100% {
+        transform: translate(-50%, -50%) translateX(-50vw) translateY(-50vh);
+    }
+}
+
+
+
+  
+/* #loading divinin CSS kuralları */
