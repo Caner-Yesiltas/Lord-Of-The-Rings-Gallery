@@ -47,7 +47,7 @@ function getLotrImages() {
     })
 
     .then((data) => {
-      console.log(data);
+      console.log(data); 
 
       displayCardImages(data.photos.photo); // photos.photo datanin yolu then api ile cektigimiz
 
