@@ -1,4 +1,9 @@
-# Lord of the Rings Image Gallery 💍
+<div align="center">
+ <h1> 
+ # Lord of the Rings Image Gallery 💍
+ </h1>
+</div>
+
 
 <div align="center">
   <h2>
