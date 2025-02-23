@@ -117,9 +117,9 @@ Project Link: [https://lord-of-the-rings-gallery.vercel.app/](https://lord-of-th
 ---
 
 <div align="center">
-  Made with ❤️ by Caner Yesiltas
+  Made with 💍 by Caner Yesiltas
 </div>
 
 <div align="center">
-  🧙‍♂️ One Ring to Rule Them All... 🧙‍♂️
+   One Ring to Rule Them All... 
 </div>
